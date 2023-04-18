@@ -49,4 +49,4 @@ namespace GalloFlix.Models;
              return TimeSpan.FromMinutes(Duration)
                  .ToString(@"%h'h 'mm'min'");
 
-    }}
+    }}}
