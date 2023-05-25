@@ -42,7 +42,7 @@ namespace GalloFlix.Controllers;
             //Verificar o modelo e fazer o login
             if (ModelState.IsValid) // Validação do lado do servidor 
             {
-                string userName = login.Email
+                string userName = login.Email;
                 if (IsValidEmail(login.Email))
                 {
                    var user = await _userManager.FindByEmailAsync(login.Email);
